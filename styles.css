@@ -1,18 +1,22 @@
+/* Globales */
 body {
     padding: 0px;
     margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-
-#first-frame {
-    background-image: radial-gradient(circle, #ffd51e, #e4be19, #c9a713, #af910e, #957b09);
+.frame {
     height: 100vh;
     width: 100vw;
-
 }
+/* ------------------------------------------------ */
 
+/* First - Frame */
+#first-frame{
+    background-image: radial-gradient(circle, #ffd51e, #e4be19, #c9a713, #af910e, #957b09);
+}
 #dots {
     background-image: radial-gradient(#a78b20 5px, transparent 5px), radial-gradient(#a78b20 5px, transparent 5px);
     background-size: 32px 32px;
@@ -94,3 +98,12 @@ body {
     align-items: center;
     font-size: 0.8em;
 }
+/* --------------------------------------------------- */
+
+/* Second-frame */
+#second-frame{
+    background-image: url("/assets/img/madera\ negra.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ------------------------------------------------------ */
