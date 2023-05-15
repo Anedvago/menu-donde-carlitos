@@ -17,6 +17,10 @@ body {
 #first-frame{
     background-image: radial-gradient(circle, #ffd51e, #e4be19, #c9a713, #af910e, #957b09);
 }
+#logo-principal{
+    height: 15em;
+    margin-bottom: 1em;
+}
 #dots {
     background-image: radial-gradient(#a78b20 5px, transparent 5px), radial-gradient(#a78b20 5px, transparent 5px);
     background-size: 32px 32px;
@@ -30,7 +34,7 @@ body {
 }
 
 #content {
-    font-family: 'Sigmar', cursive;
+    font-family: 'Bangers', cursive;
     height: 90vh;
     width: 90vw;
     border: 3px solid black;
@@ -64,8 +68,8 @@ body {
     align-items: center;
 }
 #tarjetas{
-    margin-top: 5em;
-    font-size: 0.8em;
+    margin-top: 3em;
+    font-size: 1em;
 }
 #tarjetas-logos{
     margin-top: 1em;
@@ -77,11 +81,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 #logo-moto{
     height: 2em;
-    margin-right: 5px;
+    margin-right: 1px;
 }
 .logo-red-social{
     height: 1.5em;
@@ -90,9 +94,10 @@ body {
 .logo-modo-pago{
     height: 2.5em;
     margin-right:5px;
+    background-color: white;
 }
 #insta{
-    margin-top: 5em;
+    margin-top: 3em;
     display: flex;
     justify-content: center;
     align-items: center;
